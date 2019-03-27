@@ -3,3 +3,5 @@
 ################################################################################
 
 /api/MCD.API/.vs/MCD.API/v15/Server/sqlite3
+/.vs
+/api/MCD.API/MCD.API/obj
