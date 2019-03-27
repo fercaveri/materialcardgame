@@ -2,6 +2,7 @@ export class Card {
     name: string;
     image: string;
     attack: Type;
+    atkType: string; //TODO REEVEER ESTO BRO
     def: Type;
     life: number;
     speed: number;
