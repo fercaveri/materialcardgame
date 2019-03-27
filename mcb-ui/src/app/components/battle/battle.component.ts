@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./battle.component.scss']
 })
 export class BattleComponent implements OnInit {
-
+  playerCards = {
+    
+  }
   constructor() { }
 
   ngOnInit() {

@@ -1,3 +1,7 @@
-<p>
-  battle works!
-</p>
+<div id="battle-view">
+  <div id="enemy-table"></div>
+  <div id="player-table">
+    <app-card *ngFor="let card of playerCards" [card]="card"></app-card>
+  </div>
+  <div id="player-hand"></div>
+</div>
